@@ -1,0 +1,3 @@
+add_executable(simple_executable simple_executable.cpp)
+
+target_link_libraries(simple_executable PRIVATE simple_library)
